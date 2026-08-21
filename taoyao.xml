@@ -21,7 +21,7 @@
              remote="github-non-los"
              revision="lineage-23.2" />
 
-    <project name="ximi-taoyao-test/android_vendor_xiaomi_taoyao-firmware"
+    <project name="ximi-taoyao-test/vendor_xiaomi_taoyao-firmware"
              path="vendor/xiaomi/taoyao-firmware"
              remote="github-non-los"
              revision="lineage-23.2" />
