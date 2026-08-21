@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote  name="github-non-los"
+             sync-c="true"
+             sync-j="4"
+             fetch="https://github.com" />
+
+    <project name="ximi-taoyao-test/device_xiaomi_taoyao"
+             path="device/xiaomi/taoyao"
+             remote="github-non-los"
+             revision="seventeen" />
+
+    <project name="ximi-taoyao-test/kernel_xiaomi_taoyao"
+             path="kernel/xiaomi/taoyao"
+             remote="github-non-los"
+             revision="lineage-23.2" />
+
+    <project name="ximi-taoyao-test/vendor_xiaomi_taoyao"
+             path="vendor/xiaomi/taoyao"
+             remote="github-non-los"
+             revision="lineage-23.2" />
+
+    <project name="ximi-taoyao-test/android_vendor_xiaomi_taoyao-firmware"
+             path="vendor/xiaomi/taoyao-firmware"
+             remote="github-non-los"
+             revision="lineage-23.2" />
+
+    <project name="ximi-taoyao-test/hardware_xiaomi"
+             path="hardware/xiaomi"
+             remote="github-non-los"
+             revision="lineage-23.2" />
+
+    <project name="ximi-taoyao-test/device_xiaomi_taoyao-camera"
+             path="device/xiaomi/taoyao-camera"
+             remote="github-non-los"
+             revision="lineage-23.2" />
+
+    <project name="ximi-taoyao-test/vendor_xiaomi_taoyao-camera"
+             path="vendor/xiaomi/taoyao-camera"
+             remote="github-non-los"
+             revision="lineage-23.2" />
+
+    <project name="ximi-taoyao-test/android_vendor_lineage-priv_keys"
+             path="vendor/lineage-priv/keys"
+             remote="github-non-los"
+             revision="master" />
+
+    <project name="swiitch-OFF-Lab/hardware_dolby"
+             path="hardware/dolby"
+             remote="github-non-los"
+             revision="Dolby-Vision-2.0" />
+
+</manifest>
